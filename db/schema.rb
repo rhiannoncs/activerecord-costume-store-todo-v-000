@@ -18,8 +18,13 @@ ActiveRecord::Schema.define(version: 3) do
     t.integer "costume_inventory"
     t.integer "num_of_employees"
     t.boolean "still_in_business"
+<<<<<<< HEAD
     t.time "opening_time"
     t.time "closing_time"
+=======
+    t.datetime "opening_time"
+    t.datetime "closing_time"
+>>>>>>> b370833cd7fc8cd1a722d4f5d8131aab1ff84241
   end
 
   create_table "costumes", force: :cascade do |t|
